@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mobileappclass.midterm.TaskFragment"
+    android:orientation="vertical"
+    android:gravity="center|top">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Task\n[TextView]"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Task Name \n[EditText]"
+        android:layout_weight="1"
+        android:id="@+id/editName"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Time (seconds) \n[EditText]"
+        android:layout_weight="1"
+        android:inputType="number"
+        android:id="@+id/editTime" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:textSize="20dp"
+        android:text="Confirm"
+        android:id="@+id/confirmButton"/>
+
+
+</LinearLayout>
